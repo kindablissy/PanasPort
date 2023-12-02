@@ -30,4 +30,21 @@
     height: 20px;
 }
 
+#returnHomeButton {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #313439; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
 
+#returnHomeButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
