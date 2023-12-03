@@ -62,6 +62,13 @@
             <li><span>Hire us</span></li>
           </ul>
         </nav>
+        <div id="adBanner" class="adBanner">
+          <button id="close">Close X</button>
+          <a href="https://myaccount.nestwebhost.com/aff.php?aff=664" target="_blank" id="adLink">
+              <img src="/assets//img//ad.png" alt="Ad Image" id="adImage">
+          </a>
+          <p class="ad">Ad</p>
+      </div>
         <ul class="l-main-content main-content">
           <li class="l-section section section--is-active">
             <div class="intro">
@@ -391,6 +398,16 @@
 <script src="assets/js/functions-min.js"></script>
 
 <script>
+
+document.addEventListener('DOMContentLoaded', function () {
+            // Triggering the animation on page load
+            document.getElementById('adBanner').classList.add('fadeIn');
+        });
+
+        document.getElementById('close').addEventListener('click', function () {
+            document.getElementById('adBanner').classList.add('hidden');
+        });
+
 var currentIndex = 1; // Initial index, assuming you want to start with slide2
 var totalSlides = 8; // Total number of slides
 
