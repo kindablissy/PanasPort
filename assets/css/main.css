@@ -63,7 +63,7 @@ body {
     overflow: hidden; /* Prevent scrolling */
 }
 
-.adBanner {
+.customPic {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -76,14 +76,14 @@ body {
     z-index: 999; /* Set a high z-index to ensure it's on top of other elements */
 }
 
-#adLink {
+#linkka {
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
 }
 
-#adImage {
+#imgg {
     width: 100%;
     height: 100%;
 }
@@ -99,7 +99,7 @@ body {
     cursor: pointer;
 }
 
-.ad {
+.textSaying {
     margin: 0;
 }
 

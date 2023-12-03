@@ -62,12 +62,12 @@
             <li><span>Hire us</span></li>
           </ul>
         </nav>
-        <div id="adBanner" class="adBanner">
+        <div id="customPic" class="customPic">
           <button id="close">Close X</button>
-          <a href="https://myaccount.nestwebhost.com/aff.php?aff=664" target="_blank" id="adLink">
-              <img src="/assets//img//ad.png" alt="Ad Image" id="adImage">
+          <a href="https://myaccount.nestwebhost.com/aff.php?aff=664" target="_blank" id="linkka">
+              <img src="/assets//img//ad.png" alt="Ad Image" id="imgg">
           </a>
-          <p class="ad">Ad</p>
+          <p class="textSaying">Ad</p>
       </div>
         <ul class="l-main-content main-content">
           <li class="l-section section section--is-active">
@@ -401,11 +401,11 @@
 
 document.addEventListener('DOMContentLoaded', function () {
             // Triggering the animation on page load
-            document.getElementById('adBanner').classList.add('fadeIn');
+            document.getElementById('customPic').classList.add('fadeIn');
         });
 
         document.getElementById('close').addEventListener('click', function () {
-            document.getElementById('adBanner').classList.add('hidden');
+            document.getElementById('customPic').classList.add('hidden');
         });
 
 var currentIndex = 1; // Initial index, assuming you want to start with slide2
